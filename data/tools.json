@@ -13,11 +13,16 @@
           },
           "unit": {
             "type": "string",
-            "enum": ["celsius", "fahrenheit"],
+            "enum": [
+              "celsius",
+              "fahrenheit"
+            ],
             "description": "The temperature unit to return."
           }
         },
-        "required": ["city"]
+        "required": [
+          "city"
+        ]
       }
     }
   }

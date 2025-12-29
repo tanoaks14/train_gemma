@@ -1,4 +1,35 @@
-# Ignore local Python virtual environment
+# Python virtual environment
 gemma_finetune_env/
+venv/
+env/
+.venv/
+
+# Trained models and checkpoints
 functiongemma-finetuned/
-_pycache_/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+*.tmp
+data/tools_scanned_tmp.json
