@@ -1,0 +1,4 @@
+# Ignore local Python virtual environment
+gemma_finetune_env/
+functiongemma-finetuned/
+_pycache_/
